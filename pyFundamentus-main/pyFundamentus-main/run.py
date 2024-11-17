@@ -29,7 +29,7 @@ TITLES = [
     'Indicadores de Endividamento', 'Balanço Patrimonial', 'Demonstrativo de Resultados'
 ]
 
-# pylint: disable=line-too-long
+# pylint: disable=line-too-longg
 if __name__ == '__main__':
     main_pipeline = fundamentus.Pipeline('VALE3')
     response = main_pipeline.get_all_information()
